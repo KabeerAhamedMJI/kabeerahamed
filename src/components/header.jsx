@@ -31,7 +31,7 @@ const Header = () => {
           <a href="#">
             <img
               className="Logo_image"
-              src="./images/logo_image.png"
+              src="/images/logo1.png"
               alt="logo_image"
             />
             <h2 className="text-[#EDEADE] text-2xl font-bold">Kabeer <span className="text-[#e60b4d] text-2xl font-bold">Ahmed</span></h2>

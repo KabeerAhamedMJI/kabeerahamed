@@ -111,7 +111,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Guide Academy, Malappuram</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Online Learning</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://guideacademy.in/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -149,7 +149,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Sake Arabia Al Jubail, KSA</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Manpower Supply</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://sakearabian.com/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -187,7 +187,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Alfia Duct Int. Al Jubail, KSA</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Duct Manufacturer</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://alfiaduct.com/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -225,7 +225,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Own Poject</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> News Application</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://news-app-frontend-six.vercel.app/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -263,7 +263,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Own Project</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Water Theme Park</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://water-theme-park-7ytj.vercel.app/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -301,7 +301,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Own Poject</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Movie App</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://movie-app-liard-gamma.vercel.app/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -339,7 +339,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Own Poject</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Tiger Reserve</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://tiger-prowl.vercel.app/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -377,7 +377,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Own Poject</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Weather App</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://weather-app-nine-mu-25.vercel.app/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
@@ -415,7 +415,7 @@ function Projects() {
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Client : </span> Own Project</p>
                                         <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Category :</span> Portfolio</p>
                                         <div class="center-container">
-                                            <a class="Btn-Container" href="https://asateer-ksa.com/" target="_blank">
+                                            <a class="Btn-Container" href="https://kabeerahamed-seven.vercel.app/" target="_blank">
                                                 <span class="text">View</span>
                                                 <span class="icon-Container">
                                                     <svg
