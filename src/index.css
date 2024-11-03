@@ -182,7 +182,6 @@ ul li a:hover {
   color: #e60b4d;
   text-decoration: none;
   font-weight: lighter;
-  font-size: 13px;
   border-radius: 6px;
   transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -437,21 +436,18 @@ text-align: left;
 }
 
 
-
-/* Centering container */
 .center-container {
     display: flex;
 margin: auto; 
 padding-top: 10px;
 }
 
-/* Adjusted styles for a smaller button */
 .Btn-Container {
     display: flex;
-    width: 120px; /* Reduced width */
+    width: 120px;
     height: fit-content;
     background-color: #1d2129;
-    border-radius: 30px; /* Adjusted border-radius */
+    border-radius: 30px; 
     box-shadow: 0px 5px 10px #202020;
     justify-content: space-between;
     align-items: center;
@@ -460,18 +456,18 @@ padding-top: 10px;
 }
 
 .icon-Container {
-    width: 30px; /* Reduced width */
-    height: 30px; /* Reduced height */
+    width: 30px; 
+    height: 30px; 
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid #1d2129; /* Adjusted border size */
+    border: 2px solid #1d2129; 
 }
 
 .text {
-    width: calc(90px - 15px); /* Adjusted width */
+    width: calc(90px - 15px);
     height: 100%;
     display: flex;
     align-items: center;
@@ -499,4 +495,13 @@ padding-top: 10px;
         opacity: 1;
         margin-left: 10px;
     }
+}
+
+@media (max-width: 640px) {
+  .CallButton {
+    padding: 10px 20px;  
+    font-size: 12px;
+    box-shadow: 10px -10px 20px #1a1c1f, -10px 10px 20px #282c31; 
+    border-radius: 4px;               
+  }
 }

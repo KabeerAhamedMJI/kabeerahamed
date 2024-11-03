@@ -37,7 +37,7 @@ const Header = () => {
             <h2 className="text-[#EDEADE] text-2xl font-bold">Kabeer <span className="text-[#e60b4d] text-2xl font-bold">Ahmed</span></h2>
           </a>
         </div>
-        <ul className="">
+        <ul className="hidden lg:flex">
           <li>
             <a href='#' onClick={() => menuClick('home')} className={activeSection === 'home' ? 'active' : ''}>HOME</a>
           </li>
