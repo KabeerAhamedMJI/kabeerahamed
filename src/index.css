@@ -40,6 +40,14 @@ p {
   box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
 }
 
+.Logo_image2 {
+  width: 70px;
+  border: 3px solid rgb(63, 63, 63);
+  border-radius: 100px;
+  background: linear-gradient(45deg, #212327, #262b30);
+  box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
+}
+
 ul li a.active {
   color: #ffffff;
 }
@@ -67,6 +75,20 @@ header {
   align-items: center;
   margin-top: 20px;
 }
+
+.secondnav{
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding-right: 100px;
+}
+.navigation li {
+  width: 100%;
+  gap: 10px;
+  padding: 1px 0;
+}
+
 
 .NavBar div a {
   height: 100px;

@@ -44,9 +44,9 @@ const Header = () => {
         </div>
         <Dropdown className="sm:flex md:hidden" />
 
-        <ul className="hidden lg:flex">
+        <ul className="navigate hidden lg:flex">
           <li>
-            <a href="#" onClick={() => menuClick('home')} className={activeSection === 'home' ? 'active' : ''}>HOME</a>
+            <a  href="#" onClick={() => menuClick('home')} className= {activeSection === 'home' ? 'active' : ''}>HOME</a>
           </li>
           <li>
             <a href="#" onClick={() => menuClick('about')} className={activeSection === 'about' ? 'active' : ''}>ABOUT</a>
