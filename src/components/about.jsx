@@ -17,8 +17,8 @@ const about = () => {
                         <h2 className="pt-4 text-[#EDEADE] text-4xl sm:text-5xl font-semibold">
                             Hi,
                             <br className="block sm:hidden" />
-                            <span className="sm:whitespace-nowrap">
-                                I'm <span style={{ color: '#e60b4d', fontWeight: '700' }}>Kabeer</span>
+                            <span className="sm:whitespace-nowrap lg:ml-3">
+                             I'm <span style={{ color: '#e60b4d', fontWeight: '700' }}>Kabeer</span>
                             </span>
                         </h2>
                         <p className='pt-4 text-[#BEBEBE]'>Passionate Full-stack developer and designer creating captivating digital experiences.</p>
