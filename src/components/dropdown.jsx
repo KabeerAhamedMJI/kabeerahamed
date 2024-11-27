@@ -17,7 +17,7 @@ const dropdown = () => {
               <a href="#">
                 <img
                   className="Logo_image2"
-                  src="/images/logo1.png"
+                   src="https://alfiaduct.com/wp-content/uploads/2024/11/logo2.png"
                   alt="logo_image"
                 />
                 <h2 className="flex flex-row text-[#EDEADE] text-xl font-bold gap-2">
