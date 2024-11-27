@@ -8,17 +8,17 @@ const Skills = () => {
 
     return (
         <section>
-            <div className='container mx-auto px-4 py-8'>
+            <div className=''>
                 <div className='flex flex-col items-center pb-12'>
                     <span className='text-center mb-4 text-[#e60b4d]'>
-                        Technical Skills & Experience for Modern Web
+                    Technical Skills and Experience in Modern Technologies
                     </span>
                     <h2 id='skills' className='text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-300'>
                         Professional Overview
                     </h2>
                 </div>
                 <div className='containers'>
-                    <div className='flex mb-4'>
+                    <div className='flex mb-4 items-center justify-center'>
                         <button id='skillButton'
                             className={`px-8 py-4 text-lg font-semibold ${activeTab === 'tab1' ? ' text-[#e60b4d] rounded-box p-6' : 'text-gray-300'} focus:outline-none`}
                             onClick={handleTabChange('tab1')}
