@@ -36,7 +36,7 @@ function Projects() {
                         <Slider  {...settings}>
                         <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/hospital.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/hospital.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -73,7 +73,7 @@ function Projects() {
                             </div>
                             <div className='card'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Asateer.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Asateer.png" alt="" />
                                     <div className="slide-in-overlay">
                                         <div className="slide-in-content flex flex-col items-start gap-2">
                                             <p className="text-sm"><span className="font-bold text-[rgba(255,255,255,0.8)] text-xs">Technology :</span> HTML, CSS, JavaScript</p>
@@ -111,7 +111,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Guide.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Guide.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -149,7 +149,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3 ' src="/images/Projects/Sake.png" alt="" />
+                                    <img className='h-44  p-3 ' src="https://alfiaduct.com/wp-content/uploads/2024/11/Sake.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -187,7 +187,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Alfia.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Alfia.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -225,7 +225,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/News.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/News.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -263,7 +263,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Aqua.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Aqua.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -301,7 +301,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Movie.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Movie.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -339,7 +339,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Tiger.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Tiger.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -377,7 +377,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Weather.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Weather.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">
@@ -415,7 +415,7 @@ function Projects() {
                             </div>
                             <div className='card h[450px] rounded-xl'>
                                 <div className='image-container'>
-                                    <img className='h-44  p-3' src="/images/Projects/Portfolio.png" alt="" />
+                                    <img className='h-44  p-3' src="https://alfiaduct.com/wp-content/uploads/2024/11/Portfolio.png" alt="" />
                                 </div>
                                 <div className="slide-in-overlay">
                                     <div className="slide-in-content flex flex-col items-start gap-2">

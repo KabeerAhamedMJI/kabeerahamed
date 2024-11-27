@@ -34,7 +34,7 @@ const Header = () => {
           <a href="#">
             <img
               className="Logo_image"
-              src="/images/logo1.png"
+              src="https://alfiaduct.com/wp-content/uploads/2024/11/logo2.png"
               alt="logo_image"
             />
             <h2 className="text-[#EDEADE] text-2xl font-bold">
