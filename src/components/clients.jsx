@@ -2,7 +2,7 @@ import React from 'react'
 
 function Clients() {
     return (
-        <section className=' containers mt-8'>
+        <section className='containers mt-8'>
             <div >
                 <div className='flex flex-col items-center pb-12'>
                     <span className='text-center mb-4 text-[#e60b4d]'>
@@ -12,7 +12,7 @@ function Clients() {
                         My Happy Clients
                     </h2>
                 </div>
-                <div class="lg:container gap-8 justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 p-6">
+                <div class="container gap-8 justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 p-6">
                     <div class="flex justify-center items-center">
                         <img
                             src="https://asateer-ksa.com/img/resources/logo.png"
