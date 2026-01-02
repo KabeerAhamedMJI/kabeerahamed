@@ -34,7 +34,7 @@ const Header = () => {
           <a href="#">
             <img
               className="Logo_image"
-              src="/images/logo2.png"
+              src="https://res.cloudinary.com/dpofcj23a/image/upload/v1767387165/logo2_lcadv6.png"
               alt="logo_image"
             />
             <h2 className="text-[#EDEADE] text-2xl font-bold">
