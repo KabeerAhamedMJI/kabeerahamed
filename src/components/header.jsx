@@ -34,7 +34,7 @@ const Header = () => {
           <a href="#">
             <img
               className="Logo_image"
-              src="https://alfiaduct.com/wp-content/uploads/2024/11/logo2.png"
+              src="/images/logo2.png"
               alt="logo_image"
             />
             <h2 className="text-[#EDEADE] text-2xl font-bold">
@@ -49,16 +49,16 @@ const Header = () => {
             <a  href="#" onClick={() => menuClick('home')} className= {activeSection === 'home' ? 'active' : ''}>HOME</a>
           </li>
           <li>
-            <a href="#" onClick={() => menuClick('about')} className={activeSection === 'about' ? 'active' : ''}>ABOUT</a>
+            <a href="#about" onClick={() => menuClick('about')} className={activeSection === 'about' ? 'active' : ''}>ABOUT</a>
           </li>
           <li>
-            <a href="#" onClick={() => menuClick('skills')} className={activeSection === 'skills' ? 'active' : ''}>SKILLS</a>
+            <a href="#skills" onClick={() => menuClick('skills')} className={activeSection === 'skills' ? 'active' : ''}>SKILLS</a>
           </li>
           <li>
-            <a href="#" onClick={() => menuClick('projects')} className={activeSection === 'projects' ? 'active' : ''}>PROJECTS</a>
+            <a href="#projects" onClick={() => menuClick('projects')} className={activeSection === 'projects' ? 'active' : ''}>PROJECTS</a>
           </li>
           <li>
-            <a href="#" onClick={() => menuClick('clients')} className={activeSection === 'clients' ? 'active' : ''}>CLIENTS</a>
+            <a href="#clients" onClick={() => menuClick('clients')} className={activeSection === 'clients' ? 'active' : ''}>CLIENTS</a>
           </li>
           <li>
             <a href="#" onClick={() => menuClick('contact')} className={activeSection === 'contact' ? 'active' : ''}>CONTACT</a>

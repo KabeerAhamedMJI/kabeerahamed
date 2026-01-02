@@ -1,89 +1,202 @@
-import React from 'react';
+import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
-import { FiInstagram } from "react-icons/fi";
+import { FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Contact = () => {
-    return (
-        <section>
-            <div className='containers'>
-                <div className='flex flex-col items-center pb-12'>
-                    <span className='text-center mb-4 text-[#e60b4d]'>
-                        Stay Connected Always
-                    </span>
-                    <h2 id='skills' className='text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-300'>
-                        Contact With Me
-                    </h2>
+  return (
+    <section id="contact" className="py-24 px-4 bg-[#222428]">
+      <div
+        className="
+          max-w-[1450px] mx-auto 
+          rounded-3xl 
+          border border-white/10 
+          bg-[#222428]
+          shadow-[0_30px_80px_rgba(0,0,0,0.7)]
+          px-8 md:px-14 py-14
+        "
+      >
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+          {/* LEFT */}
+          <div>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-white">
+              Let’s discuss your{" "}
+              <span className="text-[#e60b4d]">Project</span>
+            </h2>
+
+            <p className="mt-6 text-gray-400 max-w-md leading-relaxed">
+              I’m available for freelance work, chatbot integrations,
+              and partnership opportunities.
+            </p>
+
+            <div className="mt-10 space-y-6">
+
+              <InfoItem
+                icon="location_on"
+                label="Location"
+                value="Malappuram, Kerala"
+              />
+
+              <InfoItem
+                icon="mail"
+                label="Email"
+                value="kabeerahamedkm@gmail.com"
+                breakAll
+              />
+
+              <div className="flex items-start gap-4">
+                <IconBox>
+                  <BsWhatsapp className="text-xl text-[#e60b4d]" />
+                </IconBox>
+                <div>
+                  <p className="text-gray-400 text-sm">WhatsApp</p>
+                  <p className="text-white font-semibold">
+                    +91 9747 436 459
+                  </p>
                 </div>
-
-                <div className="abouts4 flex flex-col gap-4 md:flex-row md:gap-6">
-                    <div className='abouts hidden flex flex-col gap-4 lg:flex w-2/5'>
-                        <img className='image-2' src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" alt="Kabeer Ahamed" />
-                        <div className='flex flex-col gap-1 pt-6'>
-                            <div className='flex flex-row items-center gap-2 pt-2'>
-                                <BsWhatsapp id='aboutIcon2' />
-                                <span className='text-[#BEBEBE] font-bold'>+91 9747 436 459</span>
-                            </div>
-                            <div className='flex flex-row items-center gap-2 pt-2'>
-                                <span id='aboutIcon' className="material-symbols-outlined">
-                                    mail
-                                </span>
-                                <span className='text-[#BEBEBE] font-bold'>kabeerahamedkm@gmail.com</span>
-                            </div>
-                            <div className='flex flex-row gap-4 mt-5'>
-                                <div className='socialIcon'>
-                                    <a href="https://www.instagram.com/kabeer_amd/"><FiInstagram id='aboutIcon3' /></a>
-                                </div>
-                                <div className='socialIcon'>
-                                    <a href="https://github.com/KabeerAhamedMJI"><i class="fa-brands fa-github"></i></a>
-                                </div>
-                                <div className='socialIcon'>
-                                    <a href="https://www.linkedin.com/in/kabeer-ahamed-km/"><i class="fa-brands fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" abouts4 rounded-lg bg-gray-50  md:p-8 lg:w-3/5">
-                        <form>
-                            <div class="-mx-2 md:items-center md:flex">
-                                <div class="flex-1 px-2">
-                                    <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">First Name</label>
-                                    <input type="text" placeholder="" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
-                                </div>
-
-                                <div class="flex-1 px-2 mt-4 md:mt-0">
-                                    <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Last Name</label>
-                                    <input type="text" placeholder="" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
-                                </div>
-                            </div>
-
-                            <div class="mt-4">
-                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
-                                <input type="email" placeholder="" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
-                            </div>
-
-                            <div class="w-full mt-4">
-                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
-                                <textarea class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder=""></textarea>
-                            </div>
-
-                            <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#e60b4d] rounded-lg focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                                Send message
-                            </button>
-                        </form>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-    );
+
+            {/* Social */}
+            <div className="mt-10 flex gap-5">
+              <SocialIcon
+                href="https://www.instagram.com/kabeer_amd/"
+                icon={<FiInstagram />}
+              />
+              <SocialIcon
+                href="https://github.com/KabeerAhamedMJI"
+                icon={<FiGithub />}
+              />
+              <SocialIcon
+                href="https://www.linkedin.com/in/kabeer-ahamed-km/"
+                icon={<FiLinkedin />}
+              />
+            </div>
+          </div>
+
+          {/* RIGHT */}
+          <div>
+            <p className="text-gray-400 mb-8 leading-relaxed">
+              Tell me a bit about your requirement and I’ll reach out soon.
+            </p>
+
+            <form className="space-y-6">
+
+              <Input placeholder="Name*" />
+              <Input type="email" placeholder="Email*" />
+              <Input placeholder="Location*" />
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <Input placeholder="Budget*" />
+                <Input placeholder="Subject*" />
+              </div>
+
+              <textarea
+                placeholder="Message*"
+                className="
+                  w-full
+                  bg-[#1b1d20]
+                  border border-white/10
+                  rounded-xl
+                  px-4 py-3
+                  text-sm text-white
+                  placeholder-gray-500
+                  outline-none
+                  focus:border-[#e60b4d]
+                  h-28
+                  resize-none
+                "
+              />
+
+              <button
+                type="submit"
+                className="
+                  inline-flex items-center gap-2
+                  bg-[#e60b4d]
+                  text-white
+                  px-7 py-3
+                  rounded-xl
+                  text-sm font-semibold
+                  shadow-[0_15px_40px_rgba(230,11,77,0.35)]
+                  hover:opacity-90
+                  transition
+                "
+              >
+                Send Message
+                <span className="material-symbols-outlined text-sm">
+                  send
+                </span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
 };
 
+/* Reusable */
+
+const IconBox = ({ children }) => (
+  <div className="h-12 w-12 flex items-center justify-center rounded-xl bg-[#1b1d20] border border-white/10">
+    {children}
+  </div>
+);
+
+const InfoItem = ({ icon, label, value, breakAll }) => (
+  <div className="flex items-start gap-4">
+    <IconBox>
+      <span className="material-symbols-outlined text-[#e60b4d]">
+        {icon}
+      </span>
+    </IconBox>
+    <div>
+      <p className="text-gray-400 text-sm">{label}</p>
+      <p className={`text-white font-semibold ${breakAll ? "break-all" : ""}`}>
+        {value}
+      </p>
+    </div>
+  </div>
+);
+
+const Input = ({ type = "text", placeholder }) => (
+  <input
+    type={type}
+    placeholder={placeholder}
+    className="
+      w-full
+      bg-[#1b1d20]
+      border border-white/10
+      rounded-xl
+      px-4 py-3
+      text-sm text-white
+      placeholder-gray-500
+      outline-none
+      focus:border-[#e60b4d]
+    "
+  />
+);
+
+const SocialIcon = ({ href, icon }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noreferrer"
+    className="
+      h-11 w-11
+      rounded-xl
+      bg-[#1b1d20]
+      border border-white/10
+      flex items-center justify-center
+      text-[#e60b4d]
+      hover:bg-[#e60b4d]
+      hover:text-white
+      transition
+    "
+  >
+    {icon}
+  </a>
+);
+
 export default Contact;
-
-
-
-
-
-
-
-
-
